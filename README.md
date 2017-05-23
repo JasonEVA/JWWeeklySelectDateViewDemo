@@ -1,4 +1,3 @@
 # JWWeeklySelectDateViewDemo
 
-
-/Users/jasonwang/Documents/我的项目/JWWeeklySelectDateViewDemo/123123456.gif
+![](123123456.gif)
