@@ -305,13 +305,11 @@
     CGFloat contentOffsetX = self.dateCollectView.contentOffset.x;
     if (scrollView == self.dateCollectView) {
         // 无限向左拉
-        // 快到底部的时候把头上的数据清除掉，再往后面添加内容
         if (contentOffsetX > self.contentWidth - ScreenWidth)
         {
             [self addNextBatchData];
         }
         // 无限向右拉
-        // 快到顶部的时候把尾部的数据清楚掉，再往头上添加内容
         else if (contentOffsetX < 0)
         {
             [self addLastBatchData];
