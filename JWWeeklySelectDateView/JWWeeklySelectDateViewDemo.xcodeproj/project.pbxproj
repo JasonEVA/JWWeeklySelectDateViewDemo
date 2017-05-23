@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D473ACB51ED421AE0026A492 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D473ACB41ED421AE0026A492 /* main.m */; };
+		D473ACB81ED421AE0026A492 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D473ACB71ED421AE0026A492 /* AppDelegate.m */; };
+		D473ACBB1ED421AE0026A492 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D473ACBA1ED421AE0026A492 /* ViewController.m */; };
+		D473ACBE1ED421AE0026A492 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D473ACBC1ED421AE0026A492 /* Main.storyboard */; };
+		D473ACC01ED421AE0026A492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D473ACBF1ED421AE0026A492 /* Assets.xcassets */; };
+		D473ACC31ED421AE0026A492 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D473ACC11ED421AE0026A492 /* LaunchScreen.storyboard */; };
+		D473ACCD1ED421DE0026A492 /* HMWeeklySelectDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = D473ACCC1ED421DE0026A492 /* HMWeeklySelectDateView.m */; };
+		D473ACD01ED421F50026A492 /* HMDateSelectCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D473ACCF1ED421F50026A492 /* HMDateSelectCollectionViewCell.m */; };
+		FAA8480599F3839253AB19B6 /* libPods-JWWeeklySelectDateViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD996179AA7CF30911F93D2E /* libPods-JWWeeklySelectDateViewDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53F94405B5940E0656090269 /* Pods-JWWeeklySelectDateViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWWeeklySelectDateViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JWWeeklySelectDateViewDemo/Pods-JWWeeklySelectDateViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D392C845765E2AB0283DF8A5 /* Pods-JWWeeklySelectDateViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWWeeklySelectDateViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JWWeeklySelectDateViewDemo/Pods-JWWeeklySelectDateViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D473ACB01ED421AE0026A492 /* JWWeeklySelectDateViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWWeeklySelectDateViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D473ACB41ED421AE0026A492 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D473ACB61ED421AE0026A492 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D473ACB71ED421AE0026A492 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D473ACB91ED421AE0026A492 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D473ACBA1ED421AE0026A492 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D473ACBD1ED421AE0026A492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D473ACBF1ED421AE0026A492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D473ACC21ED421AE0026A492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D473ACC41ED421AE0026A492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D473ACCB1ED421DE0026A492 /* HMWeeklySelectDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMWeeklySelectDateView.h; sourceTree = "<group>"; };
+		D473ACCC1ED421DE0026A492 /* HMWeeklySelectDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMWeeklySelectDateView.m; sourceTree = "<group>"; };
+		D473ACCE1ED421F50026A492 /* HMDateSelectCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMDateSelectCollectionViewCell.h; sourceTree = "<group>"; };
+		D473ACCF1ED421F50026A492 /* HMDateSelectCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMDateSelectCollectionViewCell.m; sourceTree = "<group>"; };
+		DD996179AA7CF30911F93D2E /* libPods-JWWeeklySelectDateViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JWWeeklySelectDateViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D473ACAD1ED421AE0026A492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA8480599F3839253AB19B6 /* libPods-JWWeeklySelectDateViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D0CF370227C25FE751AFF1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D392C845765E2AB0283DF8A5 /* Pods-JWWeeklySelectDateViewDemo.debug.xcconfig */,
+				53F94405B5940E0656090269 /* Pods-JWWeeklySelectDateViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CBE400A14008F9F3013C3F2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD996179AA7CF30911F93D2E /* libPods-JWWeeklySelectDateViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D473ACA71ED421AE0026A492 = {
+			isa = PBXGroup;
+			children = (
+				D473ACB21ED421AE0026A492 /* JWWeeklySelectDateViewDemo */,
+				D473ACB11ED421AE0026A492 /* Products */,
+				5D0CF370227C25FE751AFF1B /* Pods */,
+				CBE400A14008F9F3013C3F2B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D473ACB11ED421AE0026A492 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D473ACB01ED421AE0026A492 /* JWWeeklySelectDateViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D473ACB21ED421AE0026A492 /* JWWeeklySelectDateViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D473ACCA1ED421C10026A492 /* DateSelectView */,
+				D473ACB61ED421AE0026A492 /* AppDelegate.h */,
+				D473ACB71ED421AE0026A492 /* AppDelegate.m */,
+				D473ACB91ED421AE0026A492 /* ViewController.h */,
+				D473ACBA1ED421AE0026A492 /* ViewController.m */,
+				D473ACBC1ED421AE0026A492 /* Main.storyboard */,
+				D473ACBF1ED421AE0026A492 /* Assets.xcassets */,
+				D473ACC11ED421AE0026A492 /* LaunchScreen.storyboard */,
+				D473ACC41ED421AE0026A492 /* Info.plist */,
+				D473ACB31ED421AE0026A492 /* Supporting Files */,
+			);
+			path = JWWeeklySelectDateViewDemo;
+			sourceTree = "<group>";
+		};
+		D473ACB31ED421AE0026A492 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D473ACB41ED421AE0026A492 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D473ACCA1ED421C10026A492 /* DateSelectView */ = {
+			isa = PBXGroup;
+			children = (
+				D473ACCB1ED421DE0026A492 /* HMWeeklySelectDateView.h */,
+				D473ACCC1ED421DE0026A492 /* HMWeeklySelectDateView.m */,
+				D473ACCE1ED421F50026A492 /* HMDateSelectCollectionViewCell.h */,
+				D473ACCF1ED421F50026A492 /* HMDateSelectCollectionViewCell.m */,
+			);
+			name = DateSelectView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D473ACAF1ED421AE0026A492 /* JWWeeklySelectDateViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D473ACC71ED421AE0026A492 /* Build configuration list for PBXNativeTarget "JWWeeklySelectDateViewDemo" */;
+			buildPhases = (
+				B180C238C025FEF6A6C5C328 /* [CP] Check Pods Manifest.lock */,
+				D473ACAC1ED421AE0026A492 /* Sources */,
+				D473ACAD1ED421AE0026A492 /* Frameworks */,
+				D473ACAE1ED421AE0026A492 /* Resources */,
+				159B81D94ED94643849A3F04 /* [CP] Embed Pods Frameworks */,
+				0DFD7946B4E44A6A80D36591 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWWeeklySelectDateViewDemo;
+			productName = JWWeeklySelectDateViewDemo;
+			productReference = D473ACB01ED421AE0026A492 /* JWWeeklySelectDateViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D473ACA81ED421AE0026A492 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = JasonWang;
+				TargetAttributes = {
+					D473ACAF1ED421AE0026A492 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D473ACAB1ED421AE0026A492 /* Build configuration list for PBXProject "JWWeeklySelectDateViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D473ACA71ED421AE0026A492;
+			productRefGroup = D473ACB11ED421AE0026A492 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D473ACAF1ED421AE0026A492 /* JWWeeklySelectDateViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D473ACAE1ED421AE0026A492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D473ACC31ED421AE0026A492 /* LaunchScreen.storyboard in Resources */,
+				D473ACC01ED421AE0026A492 /* Assets.xcassets in Resources */,
+				D473ACBE1ED421AE0026A492 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DFD7946B4E44A6A80D36591 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JWWeeklySelectDateViewDemo/Pods-JWWeeklySelectDateViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		159B81D94ED94643849A3F04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JWWeeklySelectDateViewDemo/Pods-JWWeeklySelectDateViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B180C238C025FEF6A6C5C328 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D473ACAC1ED421AE0026A492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D473ACBB1ED421AE0026A492 /* ViewController.m in Sources */,
+				D473ACD01ED421F50026A492 /* HMDateSelectCollectionViewCell.m in Sources */,
+				D473ACB81ED421AE0026A492 /* AppDelegate.m in Sources */,
+				D473ACCD1ED421DE0026A492 /* HMWeeklySelectDateView.m in Sources */,
+				D473ACB51ED421AE0026A492 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D473ACBC1ED421AE0026A492 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D473ACBD1ED421AE0026A492 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D473ACC11ED421AE0026A492 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D473ACC21ED421AE0026A492 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D473ACC51ED421AE0026A492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D473ACC61ED421AE0026A492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D473ACC81ED421AE0026A492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D392C845765E2AB0283DF8A5 /* Pods-JWWeeklySelectDateViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JWWeeklySelectDateViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jason.JWWeeklySelectDateViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D473ACC91ED421AE0026A492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53F94405B5940E0656090269 /* Pods-JWWeeklySelectDateViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JWWeeklySelectDateViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jason.JWWeeklySelectDateViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D473ACAB1ED421AE0026A492 /* Build configuration list for PBXProject "JWWeeklySelectDateViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D473ACC51ED421AE0026A492 /* Debug */,
+				D473ACC61ED421AE0026A492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D473ACC71ED421AE0026A492 /* Build configuration list for PBXNativeTarget "JWWeeklySelectDateViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D473ACC81ED421AE0026A492 /* Debug */,
+				D473ACC91ED421AE0026A492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D473ACA81ED421AE0026A492 /* Project object */;
+}
